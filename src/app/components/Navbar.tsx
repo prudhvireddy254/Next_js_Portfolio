@@ -34,7 +34,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/users" className="hover:text-blue-400">
+            <Link href="/about" className="hover:text-blue-400">
               About
             </Link>
           </li>

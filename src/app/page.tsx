@@ -6,7 +6,7 @@ export default function About() {
     <Navbar/>
       <main>
         <h1>Hello I am Software developer </h1>
-        <Link href="/users"> press here</Link>
+        <Link href="/about"> press here</Link>
       </main>
     </>
   );
