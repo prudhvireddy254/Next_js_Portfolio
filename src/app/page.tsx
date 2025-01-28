@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Navbar from "./components/navbar";
 export default function About() {
   return (
@@ -6,7 +6,7 @@ export default function About() {
     <Navbar/>
       <main>
         <h1>Hello I am Software developer </h1>
-        <Link href="/about"> press here</Link>
+
       </main>
     </>
   );
