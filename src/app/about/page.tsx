@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 // Interface for AvatarProps
 interface AvatarProps {
@@ -31,6 +32,11 @@ export function getImageUrl(person: { imageId: string }, size = 100) {
 export default function Profile() {
   return (
     <div>
+      <h1>About Me</h1>
+      <p>Hello! I am Prudhvi, a software developer with a passion for creating innovative solutions.</p>
+      <Link href="/portfolio">
+        <a>View my portfolio</a>
+      </Link>
       <Avatar
         size={100}
         person={{
