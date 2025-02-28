@@ -4,7 +4,7 @@ const Prudhvi: React.FC = () => {
     return (
         <div>
             <header>
-                <h1>Prudhvi&apos;s Portfolio</h1>
+                <h1>Prudhvi;s Portfolio</h1>
                 <p>Welcome to my portfolio. Here you can find my projects, skills, and contact information.</p>
             </header>
             <section id="projects">
