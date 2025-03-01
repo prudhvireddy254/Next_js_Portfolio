@@ -7,7 +7,10 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav
+      className="bg-cover bg-center p-4"
+      style={{ backgroundImage: "url('/789872.jpg')" }}
+    >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-white text-xl font-bold">
@@ -46,6 +49,11 @@ export default function Navbar() {
           <li>
             <Link href="/contact" className="hover:text-blue-400">
               Contact
+            </Link>
+          </li>
+          <li>
+            <Link href="/login" className="hover:text-blue-400">
+              Login
             </Link>
           </li>
         </ul>
